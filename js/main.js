@@ -896,7 +896,6 @@ const projectData = [
     srcURL: "https://github.com/charanvlnpavani/react-youtube-clone",
     liveDemo: "https://react-youtube-clone-omega.vercel.app/",
   },
-  
 
   {
     title: "Tic Tac Toe",
@@ -929,12 +928,12 @@ function loadContent(projectData) {
     elem.classList.add("project-card");
     elem.style.setProperty("--rotation", data.rotation + "deg");
     elem.innerHTML = buildTemplate(
-      `<div class='projects-header'>
+      `<div class='projects-header' style="border-radius: 10px">
           <img class="card-img-top img-fluid" style="height: 200px; object-fit: cover;" src={thumbnail} alt="Card image cap">
        </div>
        <h5 class="card-title mt-3">{title}</h5>
        <div class='content'>{description}</div>
-       <div class='technologies'>Tech Stack: ${techStackData}</div>
+       <div class='technologies'> ${techStackData}</div>
        <div class="card-buttons">
           <a href="{liveDemo}" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #858484; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>View Demo</a>
           <a href="{srcURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #858484; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>Source Code</a>
