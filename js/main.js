@@ -878,6 +878,7 @@ const projectData = [
   {
     title: "Gym Fitness",
     subTitle: "Modern Fitness App with React 18 🏋️",
+    thumbnail: "../img/gym.png",
     description:
       "Created a fitness app that lets users: Search Exercises by muscle group. View Detailed Info on each exercise. ss Options with ease. Built with React 18, RapidAPI for data fetching, and deployed on Vercel for quick access.💪 Modern Fitness App with React 18 🏋️‍♂️ Created a fitness app that lets users: Search Exercises by muscle group. View Detailed Info on each exercise. Explore Fitness Options with ease. Built with React 18, RapidAPI for data fetching, and deployed on Vercel for quick access..",
     techStack: ["React Js", "Tailwind CSS", "RapidAPI"],
@@ -887,30 +888,25 @@ const projectData = [
   {
     title: "Youtube Clone",
     subTitle: "Youtube Clone with React Js",
+    thumbnail: "../img/youtube.png",
+
     description:
       "This project highlights my expertise in ReactJS, dynamic data fetching, responsive design, and creating user-friendly interfaces .",
     techStack: ["React Js", "Tailwind CSS", "RapidAPI"],
     srcURL: "https://github.com/charanvlnpavani/react-youtube-clone",
     liveDemo: "https://react-youtube-clone-omega.vercel.app/",
   },
-  {
-    title: "Traffic Light",
-    subTitle: "Traffic Light in JavaScript",
-    description:
-      "Implemented a traffic light simulation using JavaScript. The project demonstrates the use of setInterval to cycle through the traffic light colors (red, yellow, green) at specified intervals, providing a visual representation of a traffic light system.",
-    techStack: ["JavaScript", "HTML", "CSS"],
-    srcURL: "https://github.com/charanvlnpavani/trafficLight",
-    liveDemo: "",
-  },
+  
 
   {
     title: "Tic Tac Toe",
     subTitle: "Tic Tac Toe in JavaScript",
+    thumbnail: "../img/tictactoe.png",
     description:
       "Developed a Tic Tac Toe game using JavaScript. The project showcases the use of event listeners and DOM manipulation to create an interactive and engaging game experience.",
     techStack: ["JavaScript", "HTML", "CSS"],
     srcURL: "https://github.com/charanvlnpavani/tic-tac-toc",
-    liveDemo: "",
+    liveDemo: "https://tic-tac-toc-sigma.vercel.app/",
   },
   // Add more objects for additional projectData here
 ];
@@ -933,7 +929,9 @@ function loadContent(projectData) {
     elem.classList.add("project-card");
     elem.style.setProperty("--rotation", data.rotation + "deg");
     elem.innerHTML = buildTemplate(
-      `
+      `<div class='projects-header'>
+          <img class="card-img-top img-fluid" style="height: 200px; object-fit: cover;" src={thumbnail} alt="Card image cap">
+       </div>
        <h5 class="card-title mt-3">{title}</h5>
        <div class='content'>{description}</div>
        <div class='technologies'>Tech Stack: ${techStackData}</div>
