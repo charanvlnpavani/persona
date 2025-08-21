@@ -7,8 +7,8 @@ const StudyCard = () => {
     <>
       {educationDetails.map((educationDetail, index) => (
         <div key={index} className="education  ">
-          <CardHeader className="sm:text-lg md:text-lg lg:text-lg sm:font-bold md:font-bold lg:font-bold   sm:w-[20vh] sm:h-[5vh] md:w-[40vh] md:h-[10vh] lg:w-[50vh] lg:h-[7vh] justify-start items-center py-2 rounded-r-lg ">
-            <CardTitle className="text-lg font-semibold">
+          <CardHeader className="sm:text-sm md:text-sm lg:text-sm sm:font-bold md:font-bold lg:font-bold   sm:w-[20vh] sm:h-[5vh] md:w-[40vh] md:h-[10vh] lg:w-[50vh] lg:h-[7vh] justify-start items-center  rounded-r-lg ">
+            <CardTitle className="text-md font-bold">
               {educationDetail.degree}{" "}
             </CardTitle>
             <CardDescription className=" font-medium ">
@@ -18,6 +18,7 @@ const StudyCard = () => {
               {educationDetail.yearOfGraduation}
             </CardDescription>
           </CardHeader>
+          <hr />
         </div>
       ))}
     </>

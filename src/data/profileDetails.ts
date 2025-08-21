@@ -11,7 +11,7 @@ export interface ProfileDetails {
 export const profileDetails: ProfileDetails[] = [
   {
     name: "Charan VLN Pavani",
-    role: "Full Stack Developer",
+    role: "Software Developer (SDE - 1) ",
     phone: "+91 9963046104",
     location: "Bangalore, India",
     image: detailsImage, // Use imported image
