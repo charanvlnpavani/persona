@@ -31,10 +31,12 @@ const ItemContent: React.FC<ItemContentProps> = ({
   link,
 }) => {
   return (
-    <div className="item-content px-5 w-full pb-1 flex flex-col ">
+    <div className="item-content px-5 w-full pb-1 flex flex-col">
       <Dialog>
         <DialogTrigger>
-          <div className="flex flex-col justify-between items-start cursor-pointer  ">
+          <div
+            className={`flex flex-col justify-between items-start cursor-pointer px-2 ${badgeColor}`}
+          >
             <div className="flex items-center gap-2 py-3 ">
               <span className="text-md text-black font-bold">{title}</span>
               {subtitle && (
@@ -73,8 +75,7 @@ const ItemContent: React.FC<ItemContentProps> = ({
               {tags && tags.length > 0 && (
                 <Badge
                   className={
-                    badgeColor +
-                    " px-3 py-2 flex items-center gap-1 rounded-full"
+                    " px-3 py-2 flex items-center gap-1 rounded-full black"
                   }
                 >
                   {tags.join(", ")}
@@ -82,7 +83,7 @@ const ItemContent: React.FC<ItemContentProps> = ({
               )}
               {link && (
                 <a href={link} target="_blank" rel="noopener noreferrer">
-                  <button className="bg-blue-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-blue-600 transition text-sm cursor-pointer">
+                  <button className="border border-blue-500 px-5 py-1 rounded-full cursor-pointer text-blue-500">
                     View
                   </button>
                 </a>

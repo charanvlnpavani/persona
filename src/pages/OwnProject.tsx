@@ -25,8 +25,9 @@ const OwnProject = () => {
                   duration={project.duration}
                   description={project.description}
                   tags={project.technologies}
-                  badgeColor="bg-teal-400 text-white"
+                  badgeColor="bg-teal-400 text-white rounded-md"
                   link={project.link}
+                  
                 />
                 {index < projects.length - 1 && <hr />}
               </div>
