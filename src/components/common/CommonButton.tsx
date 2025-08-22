@@ -29,9 +29,7 @@ export const CommonButton: React.FC<CommonButtonProps> = ({
       {logo && (
         <span className="w-5 h-5 flex items-center justify-center">{logo}</span>
       )}
-      <span className="bg-amber-800 text-white w-[20vh] py-5 px-2 rounded-bl-full rounded-tr-full">
-        {titleName}
-      </span>
+      <span>{titleName}</span>
     </span>
   );
 
