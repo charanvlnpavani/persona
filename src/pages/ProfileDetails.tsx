@@ -1,4 +1,3 @@
-import React from "react";
 // import ProfileContent from "./common/ProfileList";
 import ProfileImage from "../components/common/Profile/ProfileImage";
 import AboutUs from "./AboutUs";

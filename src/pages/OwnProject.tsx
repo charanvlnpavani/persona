@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/card";
 import { projects } from "@/data/projects";
 import ItemContent from "@/components/common/ExperienceContent";
-import React from "react";
 
 const OwnProject = () => {
   return (

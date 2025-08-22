@@ -1,4 +1,3 @@
-import React from "react";
 import { socialMediaDetails } from "@/data/socialMedia";
 import { Card, CardHeader } from "../ui/card";
 import { CommonBadge } from "./CommonBadge";

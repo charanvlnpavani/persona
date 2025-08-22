@@ -2,7 +2,6 @@ import { CommonBadge } from "@/components/common/CommonBadge";
 import TitleHeader from "@/components/common/TitleHeader";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { skillsList } from "@/data/skillsList";
-import React from "react";
 
 // Example skillsList object
 

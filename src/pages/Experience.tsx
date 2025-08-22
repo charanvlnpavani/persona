@@ -2,7 +2,6 @@ import ExperienceContent from "@/components/common/ExperienceContent";
 import TitleHeader from "@/components/common/TitleHeader";
 import { Card, CardDescription, CardHeader } from "@/components/ui/card";
 import { experienceDetails } from "@/data/experienceDetails";
-import React from "react";
 
 const Experience = () => {
   return (
