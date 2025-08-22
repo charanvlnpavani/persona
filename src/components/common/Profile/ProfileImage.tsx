@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardTitle } from "../../ui/card";
 import ProfileContent from "./ProfileContent"; // Importing ProfileContent from ProfileList
-import { profileDetails } from "@/data/profileDetails";
+import { profileDetails } from "../../../data/profileDetails";
 
 const ProfileImage = () => {
   return (

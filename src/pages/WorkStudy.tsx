@@ -1,6 +1,6 @@
-import TitleHeader from "@/components/common/TitleHeader";
-import StudyCard from "@/components/StudyCard";
-import { Card, CardHeader } from "@/components/ui/card";
+import TitleHeader from "../components/common/TitleHeader";
+import StudyCard from "../components/StudyCard";
+import { Card, CardHeader } from "../components/ui/card";
 
 const WorkStudy = () => {
   return (

@@ -1,4 +1,4 @@
-import { aboutDetails } from "@/data/about";
+import { aboutDetails } from "../data/about";
 import { Card, CardDescription, CardHeader } from "../components/ui/card";
 import TitleHeader from "../components/common/TitleHeader";
 

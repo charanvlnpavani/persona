@@ -7,7 +7,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "../ui/dialog";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "../../components/ui/badge";
 
 interface ItemContentProps {
   title: string;

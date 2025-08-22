@@ -1,4 +1,4 @@
-import { socialMediaDetails } from "@/data/socialMedia";
+import { socialMediaDetails } from "../../data/socialMedia";
 import { Card, CardHeader } from "../ui/card";
 import { CommonBadge } from "./CommonBadge";
 import TitleHeader from "./TitleHeader";

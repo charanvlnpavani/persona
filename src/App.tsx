@@ -13,17 +13,14 @@ function App() {
         <ProfileDetails />
       </div>
       <div className="flex flex-col py-5 px-5 sm:w-[100vw] md:w-[55vw] lg:w-[25vw] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] gap-5">
-        {/* Other components can be added here */}
         <WorkStudy />
         <Experience />
       </div>
       <div className="flex flex-col py-5 px-5 sm:w-[100vw] md:w-[55vw] lg:w-[30vw] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] gap-5 ">
-        {/* Other components can be added here */}
         <SkillsList />
         <OwnProject />
       </div>
       <div className="flex flex-col  p-5 sm:w-[100vw] md:w-[55vw] lg:w-[20vw] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] ">
-        {/* Other components can be added here */}
         <MediaLinks />
       </div>
     </div>

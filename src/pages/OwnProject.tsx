@@ -1,12 +1,12 @@
-import TitleHeader from "@/components/common/TitleHeader";
+import TitleHeader from "../components/common/TitleHeader";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
-} from "@/components/ui/card";
-import { projects } from "@/data/projects";
-import ItemContent from "@/components/common/ExperienceContent";
+} from "../components/ui/card";
+import { projects } from "../data/projects";
+import ItemContent from "../components/common/ExperienceContent";
 
 const OwnProject = () => {
   return (

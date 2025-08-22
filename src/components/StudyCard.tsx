@@ -1,5 +1,5 @@
 import { CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { educationDetails } from "@/data/educationDetails";
+import { educationDetails } from "../data/educationDetails";
 
 const StudyCard = () => {
   return (
