@@ -3,6 +3,7 @@ import MediaLinks from "./components/common/MediaLinks";
 import Experience from "./pages/Experience";
 import OwnProject from "./pages/OwnProject";
 import ProfileDetails from "./pages/ProfileDetails";
+import ResumeButton from "./pages/ResumButton";
 import SkillsList from "./pages/SkillsList";
 import WorkStudy from "./pages/WorkStudy";
 
@@ -20,8 +21,9 @@ function App() {
         <SkillsList />
         <OwnProject />
       </div>
-      <div className="flex flex-col  p-5 sm:w-[100vw] md:w-[55vw] lg:w-[20vw] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] ">
+      <div className="flex flex-col  p-5 sm:w-[100vw] md:w-[55vw] lg:w-[20vw] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] gap-5">
         <MediaLinks />
+        <ResumeButton />
       </div>
     </div>
   );
