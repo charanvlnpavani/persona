@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Card, CardHeader, CardTitle } from "../../ui/card";
 import ProfileContent from "./ProfileContent"; // Importing ProfileContent from ProfileList
 import { profileDetails } from "@/data/profileDetails";

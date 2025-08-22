@@ -1,7 +1,6 @@
 import TitleHeader from "@/components/common/TitleHeader";
 import StudyCard from "@/components/StudyCard";
 import { Card, CardHeader } from "@/components/ui/card";
-import React from "react";
 
 const WorkStudy = () => {
   return (
