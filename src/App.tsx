@@ -10,7 +10,7 @@ import WorkStudy from "./pages/WorkStudy";
 function App() {
   return (
     <div className="sm:flex sm:flex-col md:flex md:flex-row  lg:flex lg:flex-row h-screen  justify-center  bg-gray-100">
-      <div className="flex flex-col   px-5 sm:w-[100vw] md:w-[45vw] lg:w-[20vw] sm:h-[100vh] md:h-[100vh] lg:h-[100vh]   ">
+      <div className="flex flex-col   px-5 sm:w-[100vw] md:w-[45vw] lg:w-[20vw] sm:h-[100vh] md:h-[100vh] lg:h-[100%]   ">
         <ProfileDetails />
       </div>
       <div className="flex flex-col py-5 px-5 sm:w-[100vw] md:w-[55vw] lg:w-[25vw] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] gap-5">
