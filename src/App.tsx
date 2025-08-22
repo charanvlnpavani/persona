@@ -1,4 +1,4 @@
-import "./App.css";
+
 import ProfileDetails from "./components/ProfileDetails";
 
 function App() {
