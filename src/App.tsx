@@ -1,4 +1,3 @@
-import "./App.css";
 import MediaLinks from "./components/common/MediaLinks";
 import Experience from "./pages/Experience";
 import OwnProject from "./pages/OwnProject";
