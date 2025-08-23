@@ -1,6 +1,5 @@
-import React from "react";
 import { aboutDetails } from "@/data/about";
-import { Card, CardDescription, CardHeader } from "./ui/card";
+import { Card, CardDescription, CardHeader } from "../components/ui/card";
 
 const AboutUs = () => {
   return (
