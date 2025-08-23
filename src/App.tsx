@@ -6,6 +6,7 @@ import ResumeButton from "./pages/ResumButton";
 import SkillsList from "./pages/SkillsList";
 import WorkStudy from "./pages/WorkStudy";
 
+
 function App() {
   return (
     <div className="sm:flex sm:flex-col md:flex md:flex-row  lg:flex lg:flex-row h-screen  justify-center  bg-gray-100">
